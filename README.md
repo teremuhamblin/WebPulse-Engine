@@ -45,7 +45,12 @@ python -m webpulse analyze https://example.com
 
 ### 🧩 API REST
 ```bash
-uvicorn src.api.main:app --reload
+uvicorn src.api:app --reload
+```
+
+### 🧩 CLI
+```python
+python src/cli.py https://example.com
 ```
 
 Endpoints :
