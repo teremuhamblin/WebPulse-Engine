@@ -2,6 +2,8 @@
 # 📘 WebPulse
 >Engine
 
+![Deploy Pages](https://github.com/teremuhamblin/WebPulse-Engine/actions/workflows/pages.yml/badge.svg)
+
 WebPulse-Engine est une suite open‑source de marketing web permettant
 d’analyser un site, générer des rapports SEO, suivre des KPIs et automatiser des audits marketing via une API REST ou une CLI.
 
