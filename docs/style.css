@@ -1,8 +1,63 @@
 body {
-    font-family: Arial;
-    background: #f4f4f4;
-    padding: 40px;
+    font-family: 'Orbitron', sans-serif;
+    background: radial-gradient(circle at center, #0a0f1f, #000);
+    color: #00ffcc;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
-h1 {
-    color: #0078ff;
+
+.logo {
+    width: 120px;
+    margin-top: 20px;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { filter: drop-shadow(0 0 5px #00ffcc); }
+    50% { filter: drop-shadow(0 0 20px #00ffcc); }
+    100% { filter: drop-shadow(0 0 5px #00ffcc); }
+}
+
+.subtitle {
+    color: #00aaff;
+    font-size: 1.2em;
+}
+
+.scanner {
+    margin: 40px 0;
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #111;
+    color: #00ffcc;
+    outline: none;
+}
+
+button {
+    background: #00ffcc;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #00aaff;
+}
+
+.result {
+    background: rgba(0, 255, 204, 0.05);
+    border: 1px solid #00ffcc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
 }
