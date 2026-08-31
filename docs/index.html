@@ -1,12 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>WebPulse-Engine</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>WebPulse-Engine</h1>
-    <p>Analyse SEO simple et open-source.</p>
+    <div class="container">
+        <header>
+            <img src="logo.png" alt="WebPulse Engine" class="logo">
+            <h1>WebPulse‑Engine</h1>
+            <p class="subtitle">Analyse marketing web open‑source</p>
+        </header>
+
+        <section class="scanner">
+            <input type="text" id="urlInput" placeholder="Entre une URL à analyser...">
+            <button id="scanBtn">Analyser</button>
+        </section>
+
+        <section id="result" class="result">
+            <h2>Résultats SEO</h2>
+            <pre id="output">Aucun scan effectué.</pre>
+        </section>
+
+        <footer>
+            <p>© 2026 WebPulse‑Engine — Open Source Marketing Intelligence</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
