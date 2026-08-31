@@ -17,6 +17,8 @@ d’analyser un site, générer des rapports SEO, suivre des KPIs et automatiser
 ### Structure
 ```text
 WebPulse-Engine/
+├── .github/
+│   └── workflows/
 │
 ├── src/
 │   ├── seo_scanner.py
