@@ -26,7 +26,7 @@ WebPulse-Engine/
 │   ├── index.html
 │   └── styles.css
 │   
-├── docs/
+├── docs/ # dossier site web
 │   ├── index.html
 │   └── styles.css
 │
