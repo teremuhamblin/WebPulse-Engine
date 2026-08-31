@@ -16,7 +16,11 @@ concurrency:
 
 jobs:
   deploy:
+    environment:
+      name: github-pages
+
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
