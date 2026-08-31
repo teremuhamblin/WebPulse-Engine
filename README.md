@@ -28,6 +28,8 @@ WebPulse-Engine/
 │   
 ├── docs/ # dossier site web
 │   ├── index.html
+│   ├── script.js
+│   ├── 20260831 # logo
 │   └── styles.css
 │
 ├── README.md
