@@ -13,6 +13,24 @@ d’analyser un site, générer des rapports SEO, suivre des KPIs et automatiser
 - Interface web minimaliste pour visualiser les résultats
 - CLI pour automatiser les audits
 
+### Structure
+```text
+WebPulse-Engine/
+│
+├── src/
+│   ├── seo_scanner.py
+│   ├── api.py
+│   └── cli.py
+│
+├── web/
+│   ├── index.html
+│   └── styles.css
+│
+├── README.md
+├── LICENSE
+└── requirements.txt
+```
+
 ### 🚀 Installation
 ```bash
 git clone https://github.com/teremuhamblin/WebPulse-Engine
