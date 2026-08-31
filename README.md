@@ -25,6 +25,10 @@ WebPulse-Engine/
 ├── web/
 │   ├── index.html
 │   └── styles.css
+│   
+├── docs/
+│   ├── index.html
+│   └── styles.css
 │
 ├── README.md
 ├── LICENSE
