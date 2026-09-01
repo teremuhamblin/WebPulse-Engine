@@ -20,7 +20,8 @@ d’analyser un site, générer des rapports SEO, suivre des KPIs et automatiser
 - Interface web minimaliste pour visualiser les résultats
 - CLI pour automatiser les audits
 
-### Structure
+### Structure de base V1.0.0
+***- Se référer a la ROADMAP.md***
 ```text
 WebPulse-Engine/
 ├── .github/
