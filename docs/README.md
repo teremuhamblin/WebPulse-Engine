@@ -28,8 +28,8 @@ docs/
  │   └─ shields.svg → Icônes / décorations (optionnel)
 ```
 
-### ⚡ Mission du module ***OPEN‑SOURCES***
->OPEN‑SOURCES est la surface publique de WebPulse‑Engine.  
+### ⚡ Mission du module
+>***OPEN‑SOURCES*** est la surface publique de WebPulse‑Engine.  
 Il expose uniquement :
    - la documentation statique  
    - les informations de release  
@@ -43,22 +43,22 @@ Il expose uniquement :
 
 ### 🎨 Design cyber‑marketing
 - Le site utilise :
-   - un thème néon cyber (accent turquoise / rouge)  
+   - un thème néon cyber ***(accent turquoise / rouge)***
    - un fond grid technique façon SOC / Ghost Recon  
    - des composants statiques durcis  
-   - un style sans frameworks lourds (HTML + CSS pur)  
-   - des assets optimisés (SVG, WebP)
+   - un style sans frameworks lourds ***(HTML + CSS pur)***  
+   - des assets optimisés ***(SVG, WebP)***
 
 - Conçu pour être extrêmement réduit en surface d’attaque :
    - aucun script tiers  
    - aucun cookie  
    - aucun tracking  
-   - liens externes durcis (noopener noreferrer)  
+   - liens externes durcis ***(noopener noreferrer)*** 
    - JS minimal, auditable, sans dépendances  
 
 ---
 
-### 🚀 Déploiement automatique (CI/CD)
+### 🚀 Déploiement automatique ***(CI/CD)***
 >Le site est déployé via GitHub Actions :
 - build → validation → publication  
 - déploiement sur GitHub Pages  
@@ -103,17 +103,17 @@ js/main.js
 ### 🗺️ Roadmap v1.1.1
 - Stabilisation du site ***OPEN‑SOURCES*** 
 - Ajout documentation API WebPulse‑Engine  
-- Section Modules (moteur, plugins, extensions)  
+- Section Modules ***(moteur, plugins, extensions)*** 
 - Dashboard léger de monitoring des releases  
 
 ---
 
 ### 📜 Changelog v1.1.1
-- Migration complète vers docs/  
-- Suppression de l’ancien dossier web/  
+- Migration complète vers **docs/**
+- Suppression de l’ancien dossier **web/**
 - Nouveau design cyber‑marketing  
-- Ajout Roadmap + Changelog  
-- Préparation des fichiers .github/  
+- Ajout ***Roadmap + Changelog***
+- Préparation des fichiers **.github/**  
 
 ---
 
@@ -122,12 +122,10 @@ js/main.js
 ```text
 👉 https://github.com/teremuhamblin/WebPulse-Engine
 ```
-- github.com in Bing
+- github.com in ***Bing***
 
 ---
 
 ### 🏁 Licence
 Ce module OPEN‑SOURCES est publié sous licence **The Unlicense**
 - selon ton dépôt principal
-
----
