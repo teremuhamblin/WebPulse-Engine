@@ -1,0 +1,5 @@
+<svg width="64" height="64" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="60" cy="60" r="50" fill="#00eaff"/>
+  <text x="50%" y="50%" font-family="Orbitron" font-size="40" fill="#000"
+        text-anchor="middle" dominant-baseline="central">W</text>
+</svg>
