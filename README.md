@@ -81,4 +81,5 @@ Endpoints :
 
 ### 📄 Licence
 - The Unlicense
-   - open‑source et libre d’utilisation.
+   - open‑source
+   - libre d’utilisation.
