@@ -1,33 +1,190 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>WebPulse-Engine</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>OPEN-SOURCES | WebPulse-Engine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="index,follow">
+
+  <link rel="stylesheet" href="css/cyber.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <img src="logo.png" alt="WebPulse Engine" class="logo">
-            <h1>WebPulse‑Engine</h1>
-            <p class="subtitle">Analyse marketing web open‑source</p>
-        </header>
+  <div class="grid-background"></div>
 
-        <section class="scanner">
-            <input type="text" id="urlInput" placeholder="Entre une URL à analyser...">
-            <button id="scanBtn">Analyser</button>
-        </section>
-
-        <section id="result" class="result">
-            <h2>Résultats SEO</h2>
-            <pre id="output">Aucun scan effectué.</pre>
-        </section>
-
-        <footer>
-            <p>© 2026 WebPulse‑Engine — Open Source Marketing Intelligence</p>
-        </footer>
+  <header class="top-bar">
+    <div class="brand">
+      <img src="img/logo.svg" alt="WebPulse-Engine" class="logo">
+      <div class="brand-text">
+        <span class="brand-title">WebPulse-Engine</span>
+        <span class="brand-sub">OPEN-SOURCES Division</span>
+      </div>
     </div>
+    <nav class="nav">
+      <a href="#overview">Overview</a>
+      <a href="#features">Features</a>
+      <a href="#security">Security</a>
+      <a href="#github">GitHub</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#changelog">Changelog</a>
+    </nav>
+  </header>
 
-    <script src="script.js"></script>
+  <main class="main">
+    <section class="hero">
+      <div class="hero-left">
+        <h1>OPEN-SOURCES // Cyber Engine</h1>
+        <p class="hero-sub">
+          Module vitrine open-source de WebPulse-Engine, optimisé pour la performance,
+          la sécurité et le déploiement automatisé via GitHub Actions.
+        </p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#github">Accéder au dépôt WebPulse-Engine</a>
+          <a class="btn ghost" href="#docs">Lire la documentation technique</a>
+        </div>
+        <div class="hero-tags">
+          <span>WebPulse-Engine</span>
+          <span>OPEN-SOURCES</span>
+          <span>GitHub Actions</span>
+          <span>Security‑First</span>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="status-card">
+          <div class="status-header">Deployment Status</div>
+          <div class="status-body">
+            <div class="status-line">
+              <span class="label">Repository:</span><span class="value">WebPulse-Engine</span>
+            </div>
+            <div class="status-line">
+              <span class="label">Branch:</span><span class="value">main / docs</span>
+            </div>
+            <div class="status-line">
+              <span class="label">CI/CD:</span><span class="value ok">GitHub Actions — OK</span>
+            </div>
+            <div class="status-line">
+              <span class="label">Release:</span><span class="value">v1.1.1</span>
+            </div>
+          </div>
+        </div>
+        <div class="pulse-card">
+          <span class="pulse-label">WebPulse-Engine</span>
+          <span class="pulse-value">LIVE</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="overview" class="panel">
+      <h2>Architecture OPEN-SOURCES</h2>
+      <p>
+        OPEN-SOURCES est la façade statique durcie de WebPulse-Engine. Elle expose uniquement
+        la documentation, les releases et les informations publiques, sans backend ni données sensibles.
+      </p>
+      <div class="columns">
+        <div class="col">
+          <h3>Surface statique durcie</h3>
+          <ul>
+            <li>HTML/CSS minimalistes, sans frameworks lourds</li>
+            <li>Assets optimisés (SVG, WebP)</li>
+            <li>Pas de tracking tiers, pas de cookies marketing</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>Intégration CI/CD</h3>
+          <ul>
+            <li>Déploiement automatisé via GitHub Actions</li>
+            <li>Validation avant publication sur GitHub Pages</li>
+            <li>Releases OPEN-SOURCES versionnées (v1.1.1 et suivantes)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="panel">
+      <h2>Features clés</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>Performance</h3>
+          <p>Chargement ultra rapide, bundle minimal, aucune dépendance inutile.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Transparence</h3>
+          <p>Code source accessible, documentation claire, logique de déploiement explicite.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Scalabilité</h3>
+          <p>Facile à étendre vers des modules API, dashboards ou consoles SOC.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Cyber posture</h3>
+          <p>Surface d’attaque réduite, liens durcis, pas de scripts tiers.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="security" class="panel">
+      <h2>Posture de sécurité</h2>
+      <div class="security-grid">
+        <div class="security-item">
+          <span class="sec-label">Attack Surface</span>
+          <span class="sec-value green">Minimized</span>
+        </div>
+        <div class="security-item">
+          <span class="sec-label">Third‑Party Scripts</span>
+          <span class="sec-value red">None</span>
+        </div>
+        <div class="security-item">
+          <span class="sec-label">Data Collection</span>
+          <span class="sec-value green">Disabled</span>
+        </div>
+      </div>
+      <p class="security-note">
+        Toute logique sensible reste dans WebPulse-Engine (backend/API) et n’est jamais exposée
+        via OPEN-SOURCES. La façade web est strictement informative.
+      </p>
+    </section>
+
+    <section id="roadmap" class="panel">
+      <h2>Roadmap v1.1.1</h2>
+      <ul>
+        <li><strong>Phase 1:</strong> Stabilisation du site OPEN-SOURCES (docs/, design cyber, CI/CD)</li>
+        <li><strong>Phase 2:</strong> Ajout de documentation API WebPulse-Engine (endpoints, auth, flows)</li>
+        <li><strong>Phase 3:</strong> Intégration d’une section “Modules” (moteur, plugins, extensions)</li>
+        <li><strong>Phase 4:</strong> Dashboard léger pour visualiser l’état des déploiements et releases</li>
+      </ul>
+    </section>
+
+    <section id="changelog" class="panel">
+      <h2>Changelog v1.1.1</h2>
+      <ul>
+        <li>Migration complète du site vers <code>docs/</code> (OPEN-SOURCES)</li>
+        <li>Suppression de l’ancien dossier <code>web/</code> à la racine</li>
+        <li>Ajout du design cyber‑marketing optimisé et sécurisé</li>
+        <li>Intégration des sections Roadmap & Changelog dans la façade web</li>
+        <li>Préparation des fichiers de gouvernance GitHub (.github/)</li>
+      </ul>
+    </section>
+
+    <section id="github" class="panel">
+      <h2>Dépôt GitHub</h2>
+      <p>
+        WebPulse-Engine est hébergé sur GitHub, avec releases versionnées et CI/CD pour OPEN-SOURCES.
+      </p>
+      <a class="btn primary"
+         href="https://github.com/TON_USER/WebPulse-Engine"
+         rel="noopener noreferrer">
+        Ouvrir le dépôt WebPulse-Engine
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© 2026 WebPulse-Engine // OPEN-SOURCES</span>
+    <span>Release v1.1.1 — Cyber posture & CI/CD hardened</span>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
