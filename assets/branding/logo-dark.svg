@@ -1,0 +1,7 @@
+<svg width="180" height="60" viewBox="0 0 180 60" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="60" rx="8" fill="#0b0d14"/>
+  <text x="50%" y="50%" fill="#00d4a8" font-size="22" font-family="monospace"
+        dominant-baseline="middle" text-anchor="middle">
+    WebPulse-Engine
+  </text>
+</svg>
