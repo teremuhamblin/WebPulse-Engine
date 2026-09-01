@@ -5,8 +5,7 @@
 ---
   
 <div align="center">
-- Façade statique durcie
-- Design cyber‑marketing optimisé
+- Façade statique durcie, un design ***cyber‑marketing*** optimisé
 </div>
 
 ---
