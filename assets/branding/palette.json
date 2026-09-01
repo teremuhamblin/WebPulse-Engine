@@ -1,0 +1,9 @@
+{
+  "primary": "#00eaff",
+  "primary-dark": "#0077ff",
+  "background": "#0a0f14",
+  "accent": "#1f2a33",
+  "success": "#00ff9d",
+  "warning": "#ffcc00",
+  "danger": "#ff0055"
+}
