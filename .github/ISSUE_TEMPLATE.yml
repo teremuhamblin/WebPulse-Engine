@@ -1,0 +1,43 @@
+name: Issue
+description: Créer un ticket pour WebPulse-Engine
+title: "[ISSUE] "
+labels: ["triage"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type d’issue
+      options:
+        - Bug
+        - Feature
+        - Documentation
+        - Question
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Décris clairement le problème ou la demande.
+      placeholder: "Comportement observé, attendu, contexte..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce (si bug)
+      description: Liste les étapes pour reproduire le bug.
+      placeholder: "1. ... 2. ... 3. ..."
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Version concernée (ex: v1.1.1).
+      placeholder: "v1.1.1"
+    validations:
+      required: false
