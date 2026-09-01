@@ -1,0 +1,6 @@
+###### CODEOWNERS >> markdown
+- pour WebPulse-Engine
+
+*           @teremuhamblin 
+docs/*      @teremuhamblin 
+.github/*   @teremuhamblin 
