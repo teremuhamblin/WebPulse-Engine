@@ -1,0 +1,33 @@
+name: Pull Request
+description: Proposer une modification pour WebPulse-Engine
+title: "[PR] "
+labels: ["review"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Résumé
+      description: Résume les changements apportés.
+      placeholder: "Ce PR fait..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Détails techniques
+      description: Donne les points clés (fichiers, modules, impact).
+      placeholder: "Modules modifiés, impact sur CI/CD, etc."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Tests locaux exécutés
+        - label: CI passe
+        - label: Documentation mise à jour (si nécessaire)
+    validations:
+      required: false
