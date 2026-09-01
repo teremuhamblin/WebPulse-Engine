@@ -28,9 +28,7 @@ docs/
  │   └─ shields.svg → Icônes / décorations (optionnel)
 ```
 
----
-
-###⚡ Mission du module ***OPEN‑SOURCES***
+### ⚡ Mission du module ***OPEN‑SOURCES***
 >OPEN‑SOURCES est la surface publique de WebPulse‑Engine.  
 Il expose uniquement :
    - la documentation statique  
