@@ -1,0 +1,7 @@
+<svg width="420" height="120" viewBox="0 0 420 120" xmlns="http://www.w3.org/2000/svg">
+  <polyline points="10,60 60,60 75,20 95,100 115,60 410,60"
+            stroke="#00eaff" stroke-width="4" fill="none"/>
+  <text x="130" y="75" font-family="Orbitron" font-size="48" fill="#00eaff">
+    WebPulse‑Engine
+  </text>
+</svg>
