@@ -25,7 +25,7 @@ docs/
  │   └─ main.js → Scripts légers, sécurisés, sans tracking
  ├─ img/
  │   └─ logo.svg → Logo officiel WebPulse‑Engine
-      └─ shields.svg → Icônes / décorations (optionnel)
+ │   └─ shields.svg → Icônes / décorations (optionnel)
 ```
 
 ---
