@@ -4,6 +4,7 @@
 <div align="center">
 
 ***Façade statique durcie — Design cyber‑marketing optimisé***
+</div>
 
 ---
 
