@@ -1,6 +1,6 @@
 ###### README.md >> markdown
 # WebPulse‑Engine
-- **Module OPEN‑SOURCES**
+**- Module OPEN‑SOURCES**
 
 ---
   
