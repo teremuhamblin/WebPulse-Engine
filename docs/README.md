@@ -18,16 +18,16 @@ Il est entièrement optimisé pour ***GitHub Pages*** et déployé automatiqueme
 ```text
 docs/
  ├─ README.md 
- ├─ index.html          → Page principale (cyber‑marketing)
+ ├─ index.html → Page principale (cyber‑marketing)
  ├─ css/
- │   └─ cyber.css       → Style néon cyber optimisé
+ │   └─ cyber.css → Style néon cyber optimisé
  ├─ js/
- │   └─ main.js         → Scripts légers, sécurisés, sans tracking
+ │   └─ main.js → Scripts légers, sécurisés, sans tracking
  ├─ img/
- │   └─ logo.svg        → Logo officiel WebPulse‑Engine
- └─ assets/
-     └─ shields.svg     → Icônes / décorations (optionnel)
-````
+ │   └─ logo.svg → Logo officiel WebPulse‑Engine
+ ├─ img/
+      └─ shields.svg → Icônes / décorations (optionnel)
+```
 
 ---
 
