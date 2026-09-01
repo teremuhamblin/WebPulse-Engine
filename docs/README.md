@@ -1,6 +1,9 @@
 ###### README.md >> markdown
 # WebPulse‑Engine
 - **Module OPEN‑SOURCES**
+
+---
+  
 <div align="center">
 
 ***Façade statique durcie — Design cyber‑marketing optimisé***
